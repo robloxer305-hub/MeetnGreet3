@@ -9,12 +9,12 @@
       "src": "client/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "dist"
+        "distDir": "dist",
+        "buildCommand": "npm run build",
+        "installCommand": "npm install"
       }
     }
   ],
-  "installCommand": "npm install",
-  "buildCommand": "npm run build --workspace=client",
   "routes": [
     {
       "src": "/api/(.*)",
@@ -28,8 +28,5 @@
       "src": "/(.*)",
       "dest": "/client/dist/$1"
     }
-  ],
-  "env": {
-    "NODE_ENV": "production"
-  }
+  ]
 }
