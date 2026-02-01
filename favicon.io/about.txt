@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: PT Mono
+- Font Author: undefined
+- Font Source: https://fonts.gstatic.com/s/ptmono/v13/9oRONYoBnWILk-9ArCg5MtPyAcg.ttf
+- Font License: undefined)
